@@ -1,0 +1,50 @@
+@media screen and (max-width: 1060px) {
+  .form_input{
+    top: 20%;
+    left: 15%;
+    width: 70%;
+  }
+
+  .box {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .form_input{
+    top: 30%;
+    left: 10%;
+    width: 80%;
+  }
+  .box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .form_input{
+    left: 5%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  input {
+    width: 80%;
+  }
+  .box {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+    padding:0 5px ;
+  }
+
+  .text_container h2{
+    font-size: 20px;
+  }
+
+  .text_container p{
+    font-size: 16px;
+  }
+}
