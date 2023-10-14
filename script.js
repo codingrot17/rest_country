@@ -2,7 +2,7 @@
 
 const displayCountry = function (data) {
   const markup = `
-  <div class="container_figure">
+<div class="container_figure">
   <div class="figure_image">
     <img class="figure_image" src="${data.flags.png}" alt="" />
   </div>

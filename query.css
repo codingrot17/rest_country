@@ -48,3 +48,13 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 290px) {
+  input{
+    width: 70%;
+  }
+
+  .text_container p{
+    font-size: 14px;
+  }
+}
